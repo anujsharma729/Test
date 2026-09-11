@@ -1,0 +1,16 @@
+#USE_SECTIONS
+[Primary Keys].[Care].[MT_Uniqueness_Completeness_Check_SQL_Care]
+$$p_adls_conn=dlsmfceus2aaihubprd01.dataquality
+$$p_src_data_object=IDMC_CDQ//PrimaryKeys//Care//src_file_Care.txt
+$$Workstream=primary keys
+$$company=JohnHancock
+$$segment=US
+$$data_owner=Charles Wiegersma
+$$business_unit=Life (US)
+$$data_domain=Policy
+$$source_system=care
+$$dq_platform=Informatica
+$$file_type=parquet
+$$rule_owner=Dale Armagost
+$$rule_status=active
+[Global]
